@@ -116,7 +116,7 @@ module Fontcustom
       def font_face(style = :normal)
         case style
         when :preprocessor
-          url = "font-url"
+          url = "url"
           path = @font_path_alt
         when :preview
           url = "url"
